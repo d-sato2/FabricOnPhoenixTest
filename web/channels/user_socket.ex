@@ -2,7 +2,7 @@ defmodule FabricSample.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", FabricSample.RoomChannel
+  channel "room:*", FabricSample.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
